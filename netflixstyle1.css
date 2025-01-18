@@ -1,0 +1,240 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    padding-left:5%;
+    padding-right:5%;
+    background-image: linear-gradient(rgb(14, 13, 13) ,rgb(77, 19, 19));
+    background-repeat: repeat-x; 
+    color: aliceblue;  
+}
+
+.netfl{
+font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+font-weight:700;
+color:red;
+position: relative;
+right:67%;
+text-transform: uppercase;
+font-size: 50px;
+
+}
+ul{
+    display: flex;
+    justify-content: end;
+    gap: 1rem;
+    margin: 20px;
+}
+.select1{
+    height: 32px;
+    width: 124.4px;
+    border-radius: 0.25rem;
+    background-color: black;
+    color: white;
+}
+.btn1{
+    height: 32px;
+    width: 76.9px;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+    border: none;
+    font-size: 0.875rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+}
+li{
+    list-style-type: none;
+}
+/*article1*/
+.article1{
+    text-align: center;
+    
+    margin-top: 100px;
+    padding: 20px;
+    line-height: 40px;
+    color: rgb(255,255,255);
+    
+}
+.article1 h1{
+    font-size: 4.5rem;
+    line-height: 80px;
+    
+  
+}
+.article1 p{
+    font-size:18px ;
+}
+.name1{
+    font-size: 18px;
+    padding: 8.5px;
+    width: 408px;
+    height:51px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.button1{
+    font-size:17px;
+    padding: 10px;
+    height:49px;
+    background: rgb(229, 9, 20);
+    border-radius:0.25rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+    width: 131px;
+}
+/*article2*/
+.article2{
+    margin-top: 70px;
+}
+.art2li{
+    position:relative;
+    right: 79%;       
+}
+.arthead{
+    font-size: 25px;
+    font-family: sans-serif;
+}
+.art2li1
+{
+    height: 32px;
+    width: 124.4px;
+    border-radius: 0.25rem;
+    background-color: black;
+    color: white;
+    
+}
+
+.art2li2
+{
+    height: 32px;
+    width: 124.4px;
+    border-radius: 0.25rem;
+    background-color: black;
+    color: white;
+    
+}
+.cardbox{
+    display: flex;
+    gap: 1rem;
+    overflow-x:scroll;
+    overflow-y: hidden;
+}
+.card1{
+    border-radius: 10px;
+}
+.item{
+    border-radius: 10px;
+    width: 160px;
+    height: 190px;
+}
+.boxhead{
+    font-size: 40px;
+    line-height: 100px;
+}
+.boxcontainer{
+    display: grid;
+    grid-template-columns: repeat(4,auto);
+    
+}
+#box{
+    height: 200px;
+    width:300px; 
+    background-image: linear-gradient(rgb(68, 61, 151),rgb(54, 13, 13));
+    border-radius: 7px;
+    padding: 20px;
+
+      
+}
+/*article3*/
+.article3{
+    margin-top: 40px;
+}
+
+.boxhead{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight:bold;
+    
+}
+#box h2{
+    line-height: 50px;
+}
+
+.smallbox{
+    border:1px solid black;
+    background-image: linear-gradient(rgba(203, 188, 188, 0.217),rgb(88, 80, 80));
+    padding: 20px;
+    height: 60px;
+    margin-top: 3px;
+    font-family: sans-serif;
+}
+.inputbox{
+    line-height: 40px;
+    text-align: center;
+}
+.inputboxinside{
+    margin-top: 20px;
+}
+.address{
+    font-size: 18px;
+    padding: 8.5px;
+    width: 348px;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+}
+.button2{
+    font-size:14px;
+    padding: 7px;
+    height:38px;
+    background: rgb(229, 9, 20);
+    border-radius:0.25rem;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+.art3{
+    margin-top: 100px;
+}
+.art3 .head1{
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight:bold;
+    margin-bottom: 40px;
+}
+/*footer*/
+
+.footerpart
+{
+    display:grid;
+    grid-template-columns: repeat(4,auto);
+    text-decoration: underline;
+    line-height: 25px;
+    font-size: 17px;
+}
+.footerhead1{
+    line-height: 100px;
+}
+.lastone{
+    position:relative;
+    right:90%;
+    
+}
+.one{
+    height: 32px;
+    width: 124.4px;
+    border-radius: 0.25rem;
+    background-color: black;
+    color: white;
+}
+.lastpart{
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 20px;
+    line-height: 20px;
+}
